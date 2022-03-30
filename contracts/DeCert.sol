@@ -13,7 +13,7 @@ contract DeCert is NFTokenMetadata, Ownable {
     Counters.Counter private _tokenIdCounter;
  
   constructor() {
-    nftName = "DeCert Test";
+    nftName = "DeCert";
     nftSymbol = "DCRT";
   }
  
